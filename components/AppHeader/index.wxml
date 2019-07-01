@@ -1,0 +1,3 @@
+<view class="app-header">
+  <view class="search-header">header</view>
+</view>
