@@ -1,3 +1,8 @@
 <view class="app-header">
-  <view class="search-header">header</view>
+  <view class="search-header">
+    <nagatival><img src="" alt=""></nagatival>
+    <view class="search-filed">
+      <input type="text" name="" id="" class="header-input" placeholder="搜索商品、品牌">
+    </view>
+  </view>
 </view>
