@@ -1,0 +1,13 @@
+/* components/AppHeader/index.wxss */
+.logo-nav{
+	display:inline-block;
+	vertical-align:middle;
+}
+.logo-nav image{
+	width:40px;
+	height:40px;
+}
+.search-filed{
+	display:inline-block;
+	vertical-align:middle;
+}

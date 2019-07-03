@@ -1,6 +1,7 @@
 <!--index.wxml-->
 <view class="container">
-  <include src="/components/AppHeader/index.wxml"/>
+  <!--<include src="/components/AppHeader/index.wxml"/>-->
+  <app-header/>
   <swiper class="vy-swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{imgUrls}}">
       <swiper-item>

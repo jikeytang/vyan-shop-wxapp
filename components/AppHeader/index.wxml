@@ -1,8 +1,8 @@
 <view class="app-header">
   <view class="search-header">
-    <nagatival><img src="" alt=""></nagatival>
+    <navigator class="logo-nav" url="/" open-type="redirect"><image src="/images/wyan-logo.png" mode="aspectFit" alt="" /></navigator>
     <view class="search-filed">
-      <input type="text" name="" id="" class="header-input" placeholder="搜索商品、品牌">
+      <input type="text" name="" id="" class="header-input" placeholder="搜索商品、品牌"/>
     </view>
   </view>
 </view>

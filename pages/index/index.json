@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "app-header": "/components/AppHeader/index"
+  }
 }
