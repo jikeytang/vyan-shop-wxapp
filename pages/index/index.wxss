@@ -16,6 +16,29 @@
 .usermotto{
 	margin-top:200px;
 }
-.vy-swiper .slide-image{
+.app-swiper .slide-image{
 	width: 100%;
+}
+.app-nav{
+	height: 80px;
+  background: #fff;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.app-nav-tab{
+	flex: 1;
+	padding: 5px 0;
+	color: #666;
+	text-align: center;
+}
+.app-nav-tab .img{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.app-nav-tab .lab{
+	font-size: 14px;
 }

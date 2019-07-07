@@ -2,11 +2,21 @@
 <view class="container">
   <!--<include src="/components/AppHeader/index.wxml"/>-->
   <app-header/>
-  <swiper class="vy-swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-    <block wx:for="{{imgUrls}}">
+  <swiper class="app-swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
       <swiper-item>
         <image src="{{item}}" class="slide-image" width="355" height="150" />
       </swiper-item>
     </block>
   </swiper>
+  <view class="app-nav">
+    <navigator class="app-nav-tab" wx:for="{{appNav}}" wx:key="{{item.label}}">
+      <image class="img" mode="aspectFit" src="{{item.src}}"></image>
+      <view class="lab">{{item.label}}</view>
+    </navigator>
+    <!-- <navigator url="../../redirect/redirect/redirect?title=redirect" open-type="redirect" hover-class="other-navigator-hover">粮油超市</navigator>
+    <navigator url="/page/index/index" open-type="switchTab" hover-class="other-navigator-hover">中外名酒</navigator>
+    <navigator target="miniProgram" open-type="navigate" app-id="" path="" extra-data="" version="release">进口食品</navigator>
+    <navigator target="miniProgram" open-type="navigate" app-id="" path="" extra-data="" version="release">服饰生鲜</navigator> -->
+  </view>
 </view>

@@ -13,6 +13,13 @@ Page({
       'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
       'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640'
     ],
+    appNav: [
+      { src: '/images/index/nav-sock-icon.png', url: '', label: '休闲零食' },
+      { src: '/images/index/nav-oil-icon.png', url: '', label: '粮油超市' },
+      { src: '/images/index/nav-wine-icon.png', url: '', label: '中外名酒' },
+      { src: '/images/index/nav-food-icon.png', url: '', label: '进口食品' },
+      { src: '/images/index/nav-fresh-icon.png', url: '', label: '服饰生鲜' }
+    ],
     indicatorDots: true,
     autoplay: false,
     interval: 5000,
