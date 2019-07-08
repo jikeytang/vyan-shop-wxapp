@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
+<view class="app-container">
   <!--<include src="/components/AppHeader/index.wxml"/>-->
   <app-header/>
   <swiper class="app-swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
@@ -14,9 +14,22 @@
       <image class="img" mode="aspectFit" src="{{item.src}}"></image>
       <view class="lab">{{item.label}}</view>
     </navigator>
-    <!-- <navigator url="../../redirect/redirect/redirect?title=redirect" open-type="redirect" hover-class="other-navigator-hover">粮油超市</navigator>
-    <navigator url="/page/index/index" open-type="switchTab" hover-class="other-navigator-hover">中外名酒</navigator>
-    <navigator target="miniProgram" open-type="navigate" app-id="" path="" extra-data="" version="release">进口食品</navigator>
-    <navigator target="miniProgram" open-type="navigate" app-id="" path="" extra-data="" version="release">服饰生鲜</navigator> -->
+  </view>
+  <view class="app-like">
+    <text class="title">猜你喜欢</text>
+  </view>
+  <view class="app-like-list">
+    <view class="app-like-item" wx:for="{{appLike}}">
+      <navigator url="/pages/detail/index">
+        <image class="img" mode="aspectFit" src="{{item.img}}"></image>
+        <text class="title">{{item.title}}</text>
+      </navigator>
+      <view class="app-like-price">
+        <text class="price">￥{{item.price}}</text>
+        <view class="add-cart">
+          <image class="cart-img" src="/images/common/bottom-bar-cart-on.png"></image>
+        </view>
+      </view>
+    </view>
   </view>
 </view>

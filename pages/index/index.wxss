@@ -17,28 +17,89 @@
 	margin-top:200px;
 }
 .app-swiper .slide-image{
-	width: 100%;
+	width:100%;
 }
 .app-nav{
-	height: 80px;
-  background: #fff;
-	margin-bottom: 15px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	height:80px;
+	background:#fff;
+	margin-bottom:15px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 .app-nav-tab{
-	flex: 1;
-	padding: 5px 0;
-	color: #666;
-	text-align: center;
+	flex:1;
+	padding:5px 0;
+	color:#666;
+	text-align:center;
 }
 .app-nav-tab .img{
-	width: 30px;
-	height: 30px;
-	display: inline-block;
-	margin-bottom: 5px;
+	width:30px;
+	height:30px;
+	display:inline-block;
+	margin-bottom:5px;
 }
 .app-nav-tab .lab{
-	font-size: 14px;
+	font-size:14px;
+}
+/* 猜你喜欢 */
+.app-like{
+	padding:0 0 5px 0;
+}
+.app-like .title{
+	display:block;
+	width:100%;
+	text-align:center;
+	color:#333;
+}
+.app-like-list{
+	border-top:1px solid #ededed;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	box-sizing:content-box;
+}
+.app-like-item{
+	flex:0 1 50%;
+	padding-top:15px;
+}
+.app-like-item:nth-child(odd){
+	margin-right:-1px;
+}
+.app-like-item .title{
+	box-sizing:border-box;
+	height:31px;
+	font-size:13px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+	word-break:break-word;
+	color:#232326;
+	margin-top:5px;
+	line-height:16px;
+	margin-bottom:3px;
+	padding:0 4px;
+}
+.app-like-item .img{
+	display:block;
+	width:160px;
+	height:160px;
+	margin:0 auto;
+}
+.app-like-price{
+	display:flex;
+	margin:0 10px;
+	justify-content:space-between;
+}
+.app-like-price .price{
+	font-size:16px;
+	color:#ff5f19;
+}
+.app-like-price .cart-img{
+	display:block;
+	width:20px;
+	height:20px;
+	padding-top:2px;
 }
