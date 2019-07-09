@@ -1,0 +1,48 @@
+<view class="app-detail">
+  <scroll-view scroll-y class="app-scroll">
+    <image src="//m.360buyimg.com/mobilecms/s750x750_jfs/t1/8537/5/4851/214865/5bdbd0ecE87248b8f/e4a5fbc43d92f911.jpg!q80.dpg"></image>
+    <view class="title">
+      <text class="head">【2件9折】朗捷360页商务笔记本子/a5羊巴皮文具本子/b5加厚复古皮面日记本/a4办公用品记事本 深灰色 A5</text>
+      <view class="spec">羊巴皮质，耐用，精致，50本起可定制logo。每件1本赠送1只签字笔（每个账号限10只）</view>
+    </view>
+    <view class="price">
+      <text>￥</text>
+      1900
+    </view>
+    <view class="freight">
+      <view class="left">
+        运费:免运费
+      </view>
+      <view class="right">
+        销量：3424
+      </view>
+    </view>
+    <!-- <view class="choice" bindtap="specFun">
+       规格：请选择蛋糕规格
+    </view> -->
+    <view class="tab">
+      <view class="left" bindtap="tabFun" data-state="{{1}}">
+        <text class="tab-acitve">商品介绍</text>
+      </view>
+      <view class="right" bindtap="tabFun" data-state="{{2}}">
+        <text>规格参数</text>
+      </view>
+    </view>
+    <view class="content">
+      产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情 产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情 产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情 产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情 产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情 产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情 产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情 产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情 产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情 产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情 产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情
+    </view>
+  </scroll-view>
+  <view class="bottom">
+    <view class="icon" bindtap="goShopCar">
+      <image src="/images/common/bottom-bar-cart-on.png" style="width:20px;height:17px;"></image>
+      <text>购物车</text>
+    </view>
+    <!-- bindtap="specFun" -->
+    <view class="btn" class="btn-orange add-cart-btn" bindtap="addCart">
+      加入购物车
+    </view>
+    <view class="btn" class="btn" bindtap="specFun">
+      立即购买
+    </view>
+  </view>
+</view>

@@ -1,0 +1,120 @@
+.app-detail{
+	height:100vh;
+}
+.app-scroll{
+	height:92vh;
+}
+.app-scroll image{
+	height:60vh;
+}
+.title{
+	margin-top:10px;
+	padding:8px 12px 4px 12px;
+	background-color:#fff;
+}
+.title .head{
+	font-size:15px;
+	color:#000;
+}
+.price{
+	font-size:20px;
+	color:#ff5f19;
+	padding:0 12px 10px;
+	background-color:#fff;
+}
+.price text{
+	font-size:14px;
+}
+.spec{
+	padding-top:10px;
+	font-size:12px;
+	color:#333333;
+}
+.freight{
+	display:flex;
+	line-height:35px;
+	font-size:12px;
+	color:#666666;
+	padding:0 12px;
+	background-color:#fff;
+	border-top:1px solid #dedede;
+}
+.freight view{
+	flex:1 0 50%;
+}
+.freight .right{
+	text-align:right;
+}
+.choice{
+	line-height:35px;
+	padding:0 12px;
+	font-size:12px;
+	color:#333333;
+	border-bottom:1px solid #dedede;
+}
+.tab{
+	display:flex;
+	background-color:#fff;
+	margin-top:10px;
+}
+.tab view{
+	flex:1 0 50%;
+	text-align:center;
+	font-size:13px;
+	color:#333333;
+	line-height:40px;
+	border-bottom:1px solid #dedede;
+}
+.tab-acitve{
+	color:#ff5f19;
+	border-bottom:1px solid #ff5f19;
+	padding-bottom:11px;
+}
+.app-scroll .content{
+	line-height:1.5;
+	color:#666;
+	padding:10px;
+	background-color:#fff;
+}
+.bottom{
+	height:8vh;
+	overflow:hidden;
+	display:flex;
+
+}
+.bottom .btn{
+	flex:1 0 45%;
+}
+.bottom .icon{
+	flex:1 0 10%;
+	font-size:10px;
+	text-align:center;
+}
+.bottom .icon image{
+	padding-top:5px;
+}
+.bottom .icon text{
+	display:block;
+	color:#666666;
+}
+.btn, .btn-orange{
+	font-size:16px;
+	cursor:pointer;
+	-webkit-user-select:none;
+	background:#ff5f19;
+	line-height:8vh;
+	text-align:center;
+	color:#fff;
+}
+.btn:active{
+	background:#ff4f18;
+}
+.btn-orange{
+	background:#ffa600;
+}
+.btn-orange:active{
+	background:#ffa600;
+}
+.add-cart-btn{
+	padding:0 10px;
+}
