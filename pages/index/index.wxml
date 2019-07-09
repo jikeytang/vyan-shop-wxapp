@@ -19,7 +19,7 @@
     <text class="title">猜你喜欢</text>
   </view>
   <view class="app-like-list">
-    <view class="app-like-item" wx:for="{{appLike}}">
+    <view class="app-like-item" wx:for="{{appLike}}" wx:key="{{index}}">
       <navigator url="/pages/detail/index">
         <image class="img" mode="aspectFit" src="{{item.img}}"></image>
         <text class="title">{{item.title}}</text>
