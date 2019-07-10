@@ -1,4 +1,7 @@
 //app.js
+
+import db from '/data/db';
+
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -32,6 +35,8 @@ App({
         }
       }
     })
+
+    Object.assign(this.globalData, db)
   },
   globalData: {
     userInfo: null
