@@ -73,8 +73,12 @@
 .app-scroll .content{
 	line-height:1.5;
 	color:#666;
-	padding:10px;
+	padding:20px;
+	font-size: 16px;
 	background-color:#fff;
+}
+.app-scroll .product-img{
+	margin:0 auto;
 }
 .bottom{
 	height:8vh;
