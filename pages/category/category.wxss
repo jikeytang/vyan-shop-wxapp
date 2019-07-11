@@ -1,15 +1,15 @@
 /**category.wxss**/
 .app-category{
-	width:100vh;
+	/*width:100vh;*/
 	height:100vh;
 	display:flex;
-	flex-direction:row;
+	flex-flow:wrap;
 	background-color:#fff;
 }
 .category-side{
 	display:flex;
 	flex-direction:column;
-	width:280rpx;
+	width:220rpx;
 	background: #f8f8f8;
 	text-align:center;
 }
@@ -23,7 +23,7 @@
 	padding:10px 0;
 }
 .category-container{
-	/*flex: 1;*/
+	flex: 1;
 	display:flex;
 	flex-direction:row;
 }
@@ -51,17 +51,10 @@
 .category-item{
 	display: flex;
 	flex-direction: column;
-	/*align-items: center;*/
-	width: 150rpx;
+	align-items: center;
+	width: 145rpx;
 	height: 150rpx;
-	/*margin: 14rpx 26rpx;*/
-	/*display:inline-block;*/
-	/*float: left;*/
-	/*width: 33.333333333333336%;*/
-	/*text-align: center;*/
-	/*margin-top: .2rem;*/
-	/*margin-bottom: .3rem;*/
-	/*overflow: hidden;*/
+	margin: 14rpx 15rpx;
 }
 .category-item .img{
 	/*display: inline-block;*/

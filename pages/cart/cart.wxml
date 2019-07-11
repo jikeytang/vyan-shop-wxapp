@@ -1,3 +1,35 @@
-<view class="container">
-  test
+<!--pages/cart/cart.wxml-->
+<block wx:if="{{cartList.length}}">
+  <view class="empty-cart">
+    <view class="cart-icon">
+      <image src="/images/common/cart_empty.png"></image>
+    </view>
+    <text class="prompt">购物车快饿瘪了T^A</text>
+    <text class="tips">主人快来挑点宝贝吧</text>
+    <button class="btn-warn">去逛逛</button>
+  </view>
+</block>
+<view wx:else class="cart-wrap">
+  <view class="cart-list">
+    <view class="cart-item">
+      <view class="cart-content">
+        <icon type="circle"></icon>
+        <image src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/23a98a5cf30d9077b3a143344615d6a3.png?thumb=1&w=120&h=120"></image>
+        <text class="item-title">主人快来挑点宝贝吧 主人快来挑点宝贝吧</text>
+        <text class="item-num">4</text>
+        <text class="item-price">×</text>
+        <text class="item-price">342</text>
+        <view class="del-cart-item">删除</view>
+      </view>
+    </view>
+  </view>
+  <view class="user-operation">
+    <view class="select-all">
+      <text>全选</text>
+    </view>
+    <view class="total-price">
+      合计: <text>2000元</text>
+    </view>
+    <view class="btn-primary pay">结算</view>
+  </view>
 </view>

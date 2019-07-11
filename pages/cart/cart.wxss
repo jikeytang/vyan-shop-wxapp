@@ -1,1 +1,144 @@
-/**index.wxss**/
+/* pages/cart/cart.wxss */
+.empty-cart{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.empty-cart .cart-icon{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	width:190rpx;
+	height:190rpx;
+	margin-top:100rpx;
+	border-radius:50%;
+	background:#d6d6d6;
+}
+.cart-icon image{
+	width:80rpx;
+	height:80rpx;
+}
+.btn-warn{
+	margin-top:60rpx;
+}
+.prompt{
+	margin-top:40rpx;
+}
+.btn-warn{
+	width:580rpx;
+	letter-spacing:4rpx;
+}
+.prompt, .tips{
+	color:#666;
+}
+.tips{
+	margin-top:10px;
+	font-size:14px;
+	color:#999;
+}
+/*购物车列表样式*/
+.cart-wrap{
+	width:100%;
+	margin-top:12rpx;
+	background:#fff;
+}
+.cart-list{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.cart-item{
+	height:150rpx;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	font-size:11pt;
+	border-top:1rpx solid #dcdcdc;
+}
+.cart-item icon{
+	margin-left:-140rpx;
+}
+.cart-item text{
+	display:inline-block;
+	margin-left:10rpx;
+}
+.cart-item .item-price{
+	color:#ff6700;
+}
+.cart-list image{
+	width:100rpx;
+	height:100rpx;
+	display:inline-block;
+}
+.del-cart-item{
+	background-color:#ff6700;
+	width:150rpx;
+	height:150rpx;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	color:#fff;
+	-webkit-transform:translateX(150rpx);
+	transform:translateX(150rpx);
+	-webkit-transition:all 0.4s;
+	transition:all 0.4s;
+}
+.cart-content{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	margin-right:-150rpx;
+	-webkit-transition:all 0.4s;
+	transition:all 0.4s;
+	-webkit-transform:translateX(150rpx);
+	transform:translateX(150rpx);
+	margin-left:-150rpx
+}
+.touch-move-active .cart-content,
+.touch-move-active .del-cart-item{
+	-webkit-transform:translateX(0);
+	transform:translateX(0);
+}
+/*购物车结算操作*/
+.user-operation{
+	width:100%;
+	height:100rpx;
+	line-height:100rpx;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	position:fixed;
+	left:0;
+	bottom:0;
+	background-color:#fff;
+}
+.select-all, .total-price, .btn-primary.pay{
+	flex:1;
+	font-size:12pt;
+	text-align:center;
+}
+.select-all icon{
+	position:absolute;
+	left:30rpx;
+	top:20rpx;
+}
+.total-price text{
+	font-size:12pt;
+	padding:20rpx;
+	color:#ff6700;
+}
+.btn-primary.pay{
+	flex:1;
+	font-size:14pt;
+	color:#fff;
+	background:#ff6700;
+}
