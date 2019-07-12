@@ -1,3 +1,15 @@
-<view class="container">
-  test
+<!--pages/user/user.wxml-->
+<view class="app-user">
+  <view class="app-login-wrap">
+    <view class="app-login-input">
+      <input placeholder="请输入用户名" auto-focus/>
+    </view>
+    <view class="app-login-input app-login-pwd">
+      <input password placeholder="请输入密码" type="text" />
+      <button class="app-findpwd">忘记密码</button>
+    </view>
+  </view>
+  <view class="app-btn-wrap">
+    <button type="primary">登录</button>
+  </view>
 </view>
