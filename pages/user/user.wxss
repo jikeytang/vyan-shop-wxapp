@@ -1,6 +1,7 @@
 /* pages/user/user.wxss */
 .app-user{
 	padding:20px;
+	background-color:#fff;
 }
 .app-login-wrap{
 	margin-bottom:20px;
@@ -9,5 +10,60 @@
 	line-height:50px;
 	height:50px;
 	margin-top:20px;
-	border-bottom: 1px solid #efefef;
+	border-bottom:1px solid #efefef;
+}
+.app-login-pwd{
+	display:flex;
+	align-items:center;
+}
+.app-login-pwd .input-pwd{
+	flex:1;
+}
+.app-findpwd{
+	width:80px;
+	text-align:center;
+	border-left:1px solid #ccc;
+	padding-left:5px;
+	height:30px;
+	line-height:30px;
+}
+.login-type{
+	margin-top:30px;
+}
+.fast-login{
+	position:relative;
+	padding:10px 0;
+	border-top:1px solid #efefef;
+	text-align:center;
+}
+.fast-login .other{
+	font-size:12px;
+	position:absolute;
+	top:-15px;
+	left:50%;
+	background-color:#fff;
+	padding:5px 10px;
+	color:#ccc;
+	transform:translateX(-50%);
+}
+.other-login{
+	margin-top:10px;
+	display:flex;
+	justify-content:center;
+}
+.other-login image{
+	width:50px;
+	height:50px;
+	margin-bottom:8px;
+	display:block;
+}
+.other-login navigator{
+	margin:0 15px;
+	text-align:center;
+}
+button.login-btn{
+	background:#ff6700;
+	border-radius:30px;
+}
+.other-login .txt{
 }
