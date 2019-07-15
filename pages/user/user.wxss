@@ -1,10 +1,10 @@
 /* pages/user/user.wxss */
 .app-user{
-	padding:20px;
 	background-color:#fff;
 }
 .app-login-wrap{
 	margin-bottom:20px;
+	padding: 20px;
 }
 .app-login-input{
 	line-height:50px;
@@ -26,6 +26,7 @@
 	padding-left:5px;
 	height:30px;
 	line-height:30px;
+	font-size: 16px;
 }
 .login-type{
 	margin-top:30px;
@@ -65,5 +66,32 @@ button.login-btn{
 	background:#ff6700;
 	border-radius:30px;
 }
-.other-login .txt{
+/* logined */
+.app-user-header{
+	background: linear-gradient(90deg,#eb3c3c,#ff7459);
+	padding: 15px;
+	position: relative;
+  overflow: hidden;
+}
+.user-info{
+	display: flex;
+}
+.avatar-wrap{
+	margin-left: 10px;
+}
+.avatar-wrap image{
+	width: 60px;
+	height: 60px;
+}
+.info-wrap{
+	flex:1;
+	margin-left: 15px;
+}
+.info-wrap text{
+	display: block;
+	color: #fff;
+	font-size: 18px;
+}
+.info-wrap .score{
+	font-size: 14px;
 }

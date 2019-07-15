@@ -1,30 +1,51 @@
 <!--pages/user/user.wxml-->
 <view class="app-user">
-  <view class="app-login-wrap">
-    <view class="app-login-input">
-      <input placeholder="请输入用户名" auto-focus/>
+  <block wx:if="{{isLogined}}">
+    <view class="wx-user app-login-wrap">
+      <view class="app-login-input">
+        <input placeholder="请输入用户名" auto-focus/>
+      </view>
+      <view class="app-login-input app-login-pwd">
+        <input class="input-pwd" password placeholder="请输入密码" type="text" />
+        <navigator class="app-findpwd">忘记密码</navigator>
+      </view>
     </view>
-    <view class="app-login-input app-login-pwd">
-      <input class="input-pwd" password placeholder="请输入密码" type="text" />
-      <navigator class="app-findpwd">忘记密码</navigator>
+    <view class="app-btn-wrap">
+      <button type="primary" class="login-btn">登录</button>
     </view>
-  </view>
-  <view class="app-btn-wrap">
-    <button type="primary" class="login-btn">登录</button>
-  </view>
-  <view class="login-type">
-    <view class="fast-login">
-      <text class="other">其他登录方式</text>
+    <view class="login-type">
+      <view class="fast-login">
+        <text class="other">其他登录方式</text>
+      </view>
+      <view class="other-login">
+        <navigator class="qq-login">
+          <image src="/images/common/qq-icon.png"></image>
+          <text class="txt">QQ</text>
+        </navigator>
+        <navigator class="wx-login">
+          <image src="/images/common/wx-icon.png"></image>
+          <text class="txt">微信</text>
+        </navigator>
+      </view>
     </view>
-    <view class="other-login">
-      <navigator class="qq-login">
-        <image src="/images/common/qq-icon.png"></image>
-        <text class="txt">QQ</text>
-      </navigator>
-      <navigator class="wx-login">
-        <image src="/images/common/wx-icon.png"></image>
-        <text class="txt">微信</text>
-      </navigator>
+  </block>
+  <block wx:else>
+    <view class="wx-user app-logined">
+      <view class="app-user-header">
+        <view class="user-info">
+          <view class="avatar-wrap">
+            <image src="/images/common/default.png"></image>
+          </view>
+          <view class="info-wrap">
+            <text class="nickname">jikeytang</text>
+            <text class="score">积分 3.00</text>
+          </view>
+        </view>
+      </view>
+      <!-- /header -->
+      <view class="user-item">
+        
+      </view>
     </view>
-  </view>
+  </block>  
 </view>
