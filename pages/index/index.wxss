@@ -58,6 +58,7 @@
 	justify-content:space-between;
 	flex-wrap:wrap;
 	box-sizing:content-box;
+	background-color: #fff;
 }
 .app-like-item{
 	flex:0 1 50%;
