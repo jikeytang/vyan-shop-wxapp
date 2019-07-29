@@ -1,15 +1,11 @@
-// pages/cart/cart.js
+// pages/order/checkOut/checkOut.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    cartList: [],
-    totalPrice: 0,
-    selectAllStatus: false,
-    startX: 0,
-    startY: 0
+
   },
 
   /**
@@ -66,10 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  checkOut: function () {
-    wx.navigateTo({
-      url: '../order/checkOut/checkOut'
-    })
   }
 })

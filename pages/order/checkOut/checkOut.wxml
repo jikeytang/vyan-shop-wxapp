@@ -1,0 +1,65 @@
+<!--pages/order/checkOut/checkOut.wxml-->
+<view class="app-checkout">
+  <view class="address-wrap">
+    <view class="address-item">
+      <view class="info">
+        <text class="name">张三</text>
+        <text class="default">默认</text>
+      </view>
+      <view class="mix">
+        <text class="mobile">152218393943</text>
+        <text class="address">上海浦东新区张江镇</text>
+      </view>
+      <view class="icon">
+        <image src="/images/common/app-right.png"></image>
+      </view>
+    </view>
+    <view class="address-item address-empty">
+      <text class="mix no-address">还没有收货地址，去添加</text>
+      <view class="icon">
+        <image src="/images/common/app-right.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="check-order">
+    <view class="order-item">
+      <view class="info">
+        <text class="name">商品合计</text>
+      </view>
+      <view class="price">
+        <text class="txt">￥324.22</text>
+      </view>
+    </view>
+    <view class="order-item">
+      <view class="info">
+        <text class="name">运费</text>
+      </view>
+      <view class="price">
+        <text class="txt">￥324234.22</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="check-goods">
+    <view class="item">
+      <view class="img">
+        <image src="//m.360buyimg.com/mobilecms/s750x750_jfs/t1/8537/5/4851/214865/5bdbd0ecE87248b8f/e4a5fbc43d92f911.jpg!q80.dpg"></image>
+      </view>
+      <view class="info">
+        <view class="label">
+          <text class="name">商品名称</text>
+          <text class="num">x32</text>
+        </view>
+        <view class="spec">34234</view>
+        <view class="price">￥122</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="check-total">
+    <view class="label">实付：￥332</view>
+    <view class="info">去付款</view>
+  </view>
+
+</view>

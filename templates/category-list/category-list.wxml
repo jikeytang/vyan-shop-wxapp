@@ -1,0 +1,12 @@
+<!--pages/category-list/category-list.wxml-->
+<template name="category-list">
+  <view class="app-category-list">
+    <view class="category-item">
+      <image class="category-img" src="//m.360buyimg.com/mobilecms/s750x750_jfs/t1/8537/5/4851/214865/5bdbd0ecE87248b8f/e4a5fbc43d92f911.jpg!q80.dpg"></image>
+      <text class="title">标题</text>
+      <text class="desc">描述</text>
+      <text class="meta">标签</text>
+      <text class="discount">折扣</text>
+    </view>
+  </view>
+</template>
