@@ -1,0 +1,214 @@
+/* pages/user/orderDetail/orderDetail.wxss */
+.order-info{
+	padding-top: 25rpx;
+	background: #fff;
+	height: auto;
+	overflow: hidden;
+}
+.info-time{
+	padding-left: 31.25rpx;
+	height: 42.5rpx;
+	padding-bottom: 12.5rpx;
+	line-height: 30rpx;
+	font-size: 30rpx;
+	color: #666;
+}
+.info-num{
+	padding-left: 31.25rpx;
+	height: 29rpx;
+	line-height: 29rpx;
+	margin-top: 12.5rpx;
+	margin-bottom: 41.5rpx;
+	font-size: 30rpx;
+	color: #666;
+}
+.info-handle{
+	margin-left: 31.25rpx;
+	border-top: 1px solid #f4f4f4;
+	height: 103rpx;
+	line-height: 103rpx;
+}
+.info-handle .goods-infoandle-actual{
+	float: left;
+}
+.info-handle .goods-infoandle-info{
+	height: 103rpx;
+	float: right;
+	display: flex;
+	align-items: center;
+	padding-right: 16rpx;
+}
+.info-handle .goods-infoandle-info .btn{
+	float: right;
+}
+.info-handle .cost{
+	color: #b4282d;
+}
+.info-handle .btn{
+	line-height: 66rpx;
+	border-radius: 5rpx;
+	text-align: center;
+	margin: 0 15rpx;
+	padding: 0 20rpx;
+	height: 66rpx;
+}
+.info-handle .btn.active{
+	background: #b4282d;
+	color: #fff;
+}
+.order-goods{
+	margin-top: 20rpx;
+	background: #fff;
+}
+.order-goods .goods-info{
+	height: 93.75rpx;
+	line-height: 93.75rpx;
+	margin-left: 31.25rpx;
+	border-bottom: 1px solid #f4f4f4;
+	padding-right: 31.25rpx;
+}
+.order-goods .goods-info .label{
+	float: left;
+	font-size: 30rpx;
+	color: #333;
+}
+.order-goods .goods-info .status{
+	float: right;
+	font-size: 30rpx;
+	color: #b4282d;
+}
+.order-goods .item{
+	display: flex;
+	align-items: center;
+	height: 192rpx;
+	margin-left: 31.25rpx;
+	padding-right: 31.25rpx;
+	border-bottom: 1px solid #f4f4f4;
+}
+.order-goods .item:last-child{
+	border-bottom: none;
+}
+.order-goods .item .img{
+	height: 145.83rpx;
+	width: 145.83rpx;
+	background: #f4f4f4;
+}
+.order-goods .item .img image{
+	height: 145.83rpx;
+	width: 145.83rpx;
+}
+.order-goods .item .info{
+	flex: 1;
+	height: 145.83rpx;
+	margin-left: 20rpx;
+}
+.order-goods .item .label{
+	margin-top: 8rpx;
+	height: 33rpx;
+	line-height: 33rpx;
+	margin-bottom: 10.5rpx;
+}
+.order-goods .item .label .name{
+	display: block;
+	float: left;
+	height: 33rpx;
+	line-height: 33rpx;
+	color: #333;
+	font-size: 30rpx;
+}
+.order-goods .item .label .num{
+	display: block;
+	float: right;
+	height: 33rpx;
+	text-align: right;
+	line-height: 33rpx;
+	color: #333;
+	font-size: 30rpx;
+}
+.order-goods .item .attr{
+	height: 29rpx;
+	line-height: 29rpx;
+	color: #666;
+	margin-bottom: 25rpx;
+	font-size: 25rpx;
+}
+.order-goods .item .price{
+	height: 30rpx;
+	line-height: 30rpx;
+	color: #333;
+	font-size: 30rpx;
+}
+.order-group{
+	margin-top: 20rpx;
+	padding-left: 31.25rpx;
+	height: auto;
+	overflow: hidden;
+	background: #fff;
+}
+.order-group .address{
+	height: 128rpx;
+	padding-top: 25rpx;
+	border-bottom: 1px solid #f4f4f4;
+}
+.order-group .address .label{
+	height: 35rpx;
+	line-height: 35rpx;
+	margin-bottom: 7.5rpx;
+}
+.order-group .address .name{
+	display: inline-block;
+	height: 35rpx;
+	width: 140rpx;
+	line-height: 35rpx;
+	font-size: 25rpx;
+}
+.order-group .address .mobile{
+	display: inline-block;
+	height: 35rpx;
+	line-height: 35rpx;
+	font-size: 25rpx;
+}
+.order-group .address .full{
+	height: 35rpx;
+	line-height: 35rpx;
+	font-size: 25rpx;
+}
+.order-group .total{
+	height: 106rpx;
+	padding-top: 20rpx;
+	border-bottom: 1px solid #f4f4f4;
+}
+.order-group .total .info{
+	height: 25rpx;
+	line-height: 25rpx;
+	margin-bottom: 7.5rpx;
+	display: flex;
+}
+.order-group .total .label{
+	width: 140rpx;
+	display: inline-block;
+	height: 35rpx;
+	line-height: 35rpx;
+	font-size: 25rpx;
+}
+.order-group .total .txt{
+	flex: 1;
+	display: inline-block;
+	height: 35rpx;
+	line-height: 35rpx;
+	font-size: 25rpx;
+}
+.order-group .fee{
+	height: 81rpx;
+	line-height: 81rpx;
+}
+.order-group .fee .label{
+	display: inline-block;
+	width: 140rpx;
+	color: #b4282d;
+}
+.order-group .fee .txt{
+	display: inline-block;
+	width: 140rpx;
+	color: #b4282d;
+}

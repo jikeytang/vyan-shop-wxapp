@@ -1,11 +1,11 @@
-// pages/user/order/order.js
+// pages/user/orderDetail/orderDetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    orderList: new Array(2)
+
   },
 
   /**

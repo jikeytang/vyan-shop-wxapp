@@ -1,0 +1,61 @@
+<!--pages/user/orderDetail/orderDetail.wxml-->
+<view class="app-order-detail">
+  <view class="order-info">
+    <view class="info-time">下单时间：2019-10-12</view>
+    <view class="info-num">订单编号：2342342342</view>
+    <view class="info-handle">
+      <view class="handle-actual">实付：<text class="cost">￥23234</text></view>
+      <view class="handle-info">
+        <view class="btn">取消订单</view>
+        <view class="btn active">去付款</view>
+      </view>
+    </view>
+  </view>
+  <!--/info-->
+  <view class="order-goods">
+    <view class="goods-info">
+      <view class="label">商品信息</view>
+      <view class="status">已付款</view>
+    </view>
+    <view class="goods-list">
+      <view class="item">
+        <view class="img">
+          <image src="//m.360buyimg.com/mobilecms/s750x750_jfs/t1/8537/5/4851/214865/5bdbd0ecE87248b8f/e4a5fbc43d92f911.jpg!q80.dpg"></image>
+        </view>
+        <view class="info">
+          <view class="label">
+            <text class="name">商品名称</text>
+            <text class="num">2</text>
+          </view>
+          <view class="attr">特价</view>
+          <view class="price">￥332</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--/goods-->
+  <view class="order-group">
+    <view class="address">
+      <view class="label">
+        <text class="name">浦东新区</text>
+        <text class="mobile">123213123</text>
+      </view>
+      <view class="full">上海市浦东新区</view>
+    </view>
+    <view class="total">
+      <view class="info">
+        <text class="label">商品合计：</text>
+        <text class="txt">￥234234</text>
+      </view>
+      <view class="info">
+        <text class="label">运费：</text>
+        <text class="txt">￥234234</text>
+      </view>
+    </view>
+    <view class="fee">
+      <text class="label">实付：</text>
+      <text class="txt">￥234234</text>
+    </view>
+  </view>
+  <!--/group-->
+</view>

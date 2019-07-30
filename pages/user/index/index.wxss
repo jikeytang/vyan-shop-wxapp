@@ -1,4 +1,4 @@
-/* pages/user/user.wxss */
+/* pages/user/index/index.wxss */
 .app-login-wrap{
 	margin-bottom:20px;
 	padding: 20px;
@@ -69,7 +69,7 @@ button.login-btn{
 	background: linear-gradient(90deg,#eb3c3c,#ff7459);
 	padding: 15px;
 	position: relative;
-  overflow: hidden;
+	overflow: hidden;
 }
 .user-info{
 	display: flex;

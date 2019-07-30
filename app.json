@@ -3,11 +3,12 @@
     "pages/index/index",
     "pages/category/category",
     "pages/cart/cart",
-    "pages/user/user",
     "pages/logs/logs",
     "pages/detail/detail",
     "pages/order/checkOut/checkOut",
-    "pages/user/order/order"
+    "pages/user/order/order",
+    "pages/user/index/index",
+    "pages/user/orderDetail/orderDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -42,7 +43,7 @@
         "selectedIconPath": "images/common/bottom-bar-cart-on.png"
       },
       {
-        "pagePath": "pages/user/user",
+        "pagePath": "pages/user/index/index",
         "text": "我的微燕",
         "iconPath": "images/common/bottom-bar-user.png",
         "selectedIconPath": "images/common/bottom-bar-user-on.png"
