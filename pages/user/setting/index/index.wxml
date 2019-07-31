@@ -1,0 +1,15 @@
+<!--pages/user/setting/index/index.wxml-->
+<view class="app-setting">
+  <view class="setting-item">
+    <text class="label">头像</text>
+    <image class="img" src="/images/common/default.png"></image>
+  </view>
+  <view class="setting-item cell-link">
+    <text class="label">昵称</text>
+    <text class="name">jikeytang</text>
+  </view>
+  <view class="setting-item cell-link">
+    <text class="label">性别</text>
+    <text class="name">男</text>
+  </view>
+</view>

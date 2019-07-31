@@ -8,7 +8,9 @@
     "pages/order/checkOut/checkOut",
     "pages/user/order/order",
     "pages/user/index/index",
-    "pages/user/orderDetail/orderDetail"
+    "pages/user/orderDetail/orderDetail",
+    "pages/user/setting/index/index",
+    "pages/user/address/address"
   ],
   "window": {
     "backgroundTextStyle": "light",

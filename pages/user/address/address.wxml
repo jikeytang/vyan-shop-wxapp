@@ -1,0 +1,23 @@
+<!--pages/user/address/address.wxml-->
+<view class="app-address">
+  <view class="address-list">
+    <view class="item">
+      <view class="label">
+        <view class="name">上海市浦东新区</view>
+        <view class="default">默认</view>
+      </view>
+      <view class="prop">
+        <view class="mobile">152213212311</view>
+        <view class="address">上海浦东</view>
+      </view>
+      <view class="action">
+        <image class="del" src="/images/common/icon-del.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="empty-view">
+    <image class="icon" src="/images/common/icon-noaddress.png"></image>
+    <text class="text">收货地址在哪里</text>
+  </view>
+  <view class="add-address">新增地址</view>
+</view>

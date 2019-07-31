@@ -71,14 +71,14 @@
           </view>
           <view class="span"></view>
         </navigator>
-        <navigator class="my-order">
+        <navigator class="my-order" url="../address/address">
           <view class="item-label">
-            <image class="icon" src="/images/common/user-pkg-icon.png"></image>
+            <image class="icon" src="/images/common/icon-address.png"></image>
             <text class="cite">收货地址</text>
           </view>
           <view class="span"></view>
         </navigator>
-        <navigator class="my-order">
+        <navigator class="my-order" url="../setting/index/index">
           <view class="item-label">
             <image class="icon" src="/images/common/user-setting-icon.png"></image>
             <text class="cite">用户设置</text>
