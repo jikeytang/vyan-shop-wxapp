@@ -19,5 +19,5 @@
     <image class="icon" src="/images/common/icon-noaddress.png"></image>
     <text class="text">收货地址在哪里</text>
   </view>
-  <view class="add-address">新增地址</view>
+  <navigator class="add-address" url="../addressAdd/addressAdd">新增地址</navigator>
 </view>

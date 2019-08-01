@@ -1,0 +1,33 @@
+<!--pages/user/addressAdd/addressAdd.wxml-->
+<view class="app-address-add">
+  <view class="add-form">
+    <view class="form-item">
+      <input class="input" placeholder="姓名" value="" auto-focus />
+    </view>
+    <view class="form-item">
+      <input class="input" value="" placeholder="手机号码"/>
+    </view>
+    <view class="form-item">
+      <input class="input" value="" disabled="true" placeholder="省份、城市、区县"/>
+    </view>
+    <view class="form-item">
+      <input class="input" value="" placeholder="详细地址, 如街道、楼盘号等"/>
+    </view>
+    <view class="form-default">
+      <label class="radio">
+        <radio value="1" checked=""/>设为默认地址
+      </label>
+    </view>
+  </view>
+
+  <view class="actions">
+    <button class="save" bindtap="saveAddress">保存</button>
+  </view>
+
+</view>
+
+
+
+
+
+

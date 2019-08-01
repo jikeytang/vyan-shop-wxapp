@@ -10,7 +10,8 @@
     "pages/user/index/index",
     "pages/user/orderDetail/orderDetail",
     "pages/user/setting/index/index",
-    "pages/user/address/address"
+    "pages/user/address/address",
+    "pages/user/addressAdd/addressAdd"
   ],
   "window": {
     "backgroundTextStyle": "light",

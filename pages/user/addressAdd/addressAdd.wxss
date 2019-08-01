@@ -1,0 +1,51 @@
+/* pages/user/addressAdd/addressAdd.wxss */
+.add-form{
+	background: #fff;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.form-item{
+	height: 116rpx;
+	padding-left: 31.25rpx;
+	border-bottom: 1px solid #d9d9d9;
+	display: flex;
+	align-items: center;
+	padding-right: 31.25rpx;
+}
+.app-address-add .input{
+	flex: 1;
+	height: 44rpx;
+	line-height: 44rpx;
+	overflow: hidden;
+}
+.form-default{
+	border-bottom: 1px solid #d9d9d9;
+	height: 96rpx;
+	line-height:96rpx;
+	background: #fafafa;
+	font-size: 30rpx;
+	padding-left:20rpx;
+}
+.app-address-add .actions{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	display: flex;
+	height: 100rpx;
+	width: 100%;
+}
+.app-address-add .save{
+	flex: 1;
+	height: 100rpx;
+	text-align: center;
+	line-height: 100rpx;
+	font-size: 28rpx;
+	color: #fff;
+	border:none;
+	border-radius: 0;
+}
+.app-address-add .save{
+	background: #b4282d;
+}
