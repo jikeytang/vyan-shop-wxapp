@@ -14,7 +14,7 @@
 		"checkInvalidKey": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.7.5",
+	"libVersion": "2.7.7",
 	"appid": "wx2a724dbfe274e7fe",
 	"projectname": "vyan-shop-wxapp",
 	"debugOptions": {

@@ -142,3 +142,131 @@
 	color:#fff;
 	background:#ff6700;
 }
+/* cart-view */
+.cart-view{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.cart-view .group-item{
+	height: auto;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 18rpx;
+}
+.cart-view .item{
+	height: 164rpx;
+	width: 100%;
+	overflow: hidden;
+}
+.cart-view .item .cart-goods{
+	float: left;
+	height: 164rpx;
+	width: 672rpx;
+	border-bottom: 1px solid #f4f4f4;
+}
+.cart-view .item .img{
+	float: left;
+	height:125rpx;
+	width: 125rpx;
+	background: #f4f4f4;
+	margin: 19.5rpx 18rpx 19.5rpx 0;
+}
+.cart-view .item .info{
+	float: left;
+	height:125rpx;
+	width: 503rpx;
+	margin: 19.5rpx 26rpx 19.5rpx 0;
+}
+.cart-view .item .prop{
+	margin: 8rpx 0;
+	height: 28rpx;
+	font-size: 25rpx;
+	color: #333;
+	overflow: hidden;
+}
+.cart-view .item .name{
+	height: 28rpx;
+	max-width: 310rpx;
+	line-height: 28rpx;
+	font-size: 25rpx;
+	color: #333;
+	overflow: hidden;
+}
+.cart-view .item .num{
+	height: 28rpx;
+	line-height: 28rpx;
+	float: right;
+}
+.cart-view .item .attr{
+	margin-bottom: 17rpx;
+	height: 24rpx;
+	line-height: 24rpx;
+	font-size: 22rpx;
+	color: #666;
+	overflow: hidden;
+}
+.cart-view .item .desc{
+	height: 28rpx;
+	line-height: 28rpx;
+	font-size: 25rpx;
+	color: #333;
+	overflow: hidden;
+}
+.cart-view .item .price{
+	float: left;
+}
+.cart-view .item .sell{
+	display: none;
+}
+.cart-view .item.edit .prop{
+	display: none;
+}
+.cart-view .item.edit .attr{
+	text-align: right;
+	background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/arrow-right1-e9828c5b35.png) right center no-repeat;
+	padding-right: 25rpx;
+	background-size: 12rpx 20rpx;
+	margin-bottom: 24rpx;
+	height: 39rpx;
+	line-height: 39rpx;
+	font-size: 24rpx;
+	color: #999;
+	overflow: hidden;
+}
+.cart-view .item.edit .price{
+	line-height: 52rpx;
+	height: 52rpx;
+	flex: 1;
+}
+.cart-view .item.edit .sell{
+	width: 235rpx;
+	border: 1rpx solid #ccc;
+	display: flex;
+}
+.sell .cut{
+	width: 70rpx;
+	height: 100%;
+	text-align: center;
+	line-height: 50rpx;
+}
+.sell .number{
+	flex: 1;
+	height: 100%;
+	text-align: center;
+	line-height: 68.75rpx;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	float: left;
+}
+.sell .add{
+	width: 80rpx;
+	height: 100%;
+	text-align: center;
+	line-height: 50rpx;
+}
+.cart-view .item.edit .desc{
+	display: flex;
+	height: 52rpx;
+	overflow: hidden;
+}
